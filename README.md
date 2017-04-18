@@ -42,7 +42,7 @@
 ## Scanner, File, loop
 
 <pre>
-      public static void main(String[] args)<mark> throws Exception</mark>
+      public static void main(String[] args)<highlight> throws Exception</highlight>
       {
             Scanner sc = new Scanner(new File("MyTextFile.txt"));
             while (sc.hasNextLong()) {
