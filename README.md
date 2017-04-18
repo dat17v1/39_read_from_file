@@ -41,7 +41,8 @@
 
 ## Scanner, File, loop
 
-````java    
+````java     
+
       public static void main(String[] args) throws Exception
       {
             Scanner sc = new Scanner(new File("MyTextFile.txt"));
@@ -49,7 +50,10 @@
                  long aLong = sc.nextLong();
             }
       }
-````      
+    
+    
+````     
+
 
 ### Scanner methods
 `````java    
