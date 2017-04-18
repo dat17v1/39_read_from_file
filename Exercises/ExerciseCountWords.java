@@ -6,15 +6,15 @@ public class CountWords
 {
    public static void main(String[] args) 
    {
-      // 2. Create a new File object that contains the file hamlet.txt
-        
-      // 2. Create a new Scanner object that reads from the file object
+      // 2. Create a new File object that contains the file hamlet.txt        
+      // 3. Create a new Scanner object that reads from the file object
+          // 3a. in order to do this you will need a try catch clause
         
       
-      // 3. Loop through the text using a while loop and count all the words (Tokens)
+      // 4. Loop through the text using a while loop and count all the words (Tokens)
 
       
-      // 4. print out the total amount of words in the file
+      // 5. print out the total amount of words in the file
       
    }
 }
