@@ -46,4 +46,16 @@
 
 ````    
 
+### Scanner methods
+`````java    
+    hasNext()
+    hasNextLine()
+    hasNextInt()
+    hasNextDouble()
+    
+````   
+
+
+
+
 
