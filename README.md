@@ -15,5 +15,12 @@
             }
         }
     }
-`````
+`````     
+
+````java
+    Scanner sc = new Scanner(System.in);
+    int i = sc.nextInt();
+
+````   
+
 
