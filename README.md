@@ -41,24 +41,27 @@
 
 ## Scanner, File, loop
 
-<pre>
-      public static void main(String[] args)<b style="color:blue"> throws Exception</b>
+````java    
+      public static void main(String[] args) throws Exception
       {
             Scanner sc = new Scanner(new File("MyTextFile.txt"));
             while (sc.hasNextLong()) {
                  long aLong = sc.nextLong();
             }
-      }
-</pre>   
+      }
+````      
 
 ### Scanner methods
 `````java    
+    
     hasNext()
     hasNextLine()
     hasNextInt()
     hasNextDouble()
     
-````   
+````    
+
+
 
 
 
