@@ -31,8 +31,12 @@
 ## File
 
 ````java    
-
+    // Create a file object, that can operate on MyTextFile.txt
+    // Does not create a file! 
     File file = new File("MyTextFile.txt");
+    
+    // Create a file if and only if it does not exist
+    file.createNewFile();
 ````   
 
 ## Scanner, File, loop
