@@ -41,14 +41,15 @@
 
 ## Scanner, File, loop
 
-````java 
-      Scanner sc = new Scanner(new File("myNumbers"));
-      while (sc.hasNextLong()) {
-          long aLong = sc.nextLong();
+<pre>
+      public static void main(String[] args)<mark> throws Exception</mark>
+      {
+            Scanner sc = new Scanner(new File("MyTextFile.txt"));
+            while (sc.hasNextLong()) {
+                 long aLong = sc.nextLong();
+            }
       }
- 
-
-````    
+</pre>   
 
 ### Scanner methods
 `````java    
