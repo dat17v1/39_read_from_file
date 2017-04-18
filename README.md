@@ -60,14 +60,7 @@
     hasNext()
     hasNextLine()
     hasNextInt()
-    hasNextDouble()     
-    
-`````            
+    hasNextDouble()        
+`````      
 
-
-
-
-
-
-
-
+``
