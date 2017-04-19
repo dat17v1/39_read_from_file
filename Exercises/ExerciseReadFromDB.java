@@ -6,7 +6,7 @@ public class ExerciseReadFromDB
         // Name lastname age cpr 
         // put in at least 3 persons
 
-        // 2 Read all persons from the file and write it to the console
+        // 2. Read all persons from the file and write it to the console
 
         // 3. Read all persons from the file and write it to an Array or ArrayList
     }
