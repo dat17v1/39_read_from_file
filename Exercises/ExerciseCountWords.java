@@ -13,32 +13,30 @@ public class ExerciseCountWords
       File f = new File("hamlet.txt");
 
       // 3. Create a new Scanner object that reads from the file object
+          
           // 3a. in order to do this you will need a try catch clause 
+          try
+          {
+                    Scanner scan = new Scanner(f);
+                    int words = 0;
+                    int character = 0;
 
-          try{
-             Scanner scan = new Scanner(f);
-             int count = 0;
-
-              // 4. Loop through the text using a while loop and count all the words (Tokens)
-
-              while(scan.hasNext() == true)
-              {
-                  scan.next();
-                    count++;
-              }
-      
-            // 5. print out the total amount of words in the file
-
-            System.out.println(count);
-
+                    // 4. Loop through the text using a while loop and count all the words (Tokens)
+                    while(scan.hasNext()) // scan.hasNext() == true
+                    {
+                        String token = scan.next();
+                        // count characters by checking the length of the word/token
+                        character += token.length(); // add the number of characters to the sum in character
+                        words++; // words in hamlet.txt        
+                    }
+            
+                    // 5. print out the total amount of words in the file
+                    System.out.println("Words in " + f.getName() + ": " + words);
+                    System.out.println("Characters in " + f.getName() + ": " + character);
           }
           catch(Exception e){
             // TODO : code
           }
-         
 
-      
-     
-      
    }
 }
