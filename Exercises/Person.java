@@ -1,16 +1,29 @@
 public class Person
 {
+    private String name; 
+    private String lastName;
+    private int age;
+    private String cpr;
 
-    // atributter
-    private String Name; 
-    lastname
-    private int age; 
-    cpr 
-
-    // Metoder
-    public String getName()
+    public Person(String name, String lastName, int age, String cpr)
     {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.cpr = cpr;
+    }
+
+    public String getName(){
         return name;
     }
 
+    public String getLastName(){
+        return lastName;
+    }
+    public int getAge(){
+        return age;
+    }
+    public String getCpr(){
+        return cpr;
+    }
 }
