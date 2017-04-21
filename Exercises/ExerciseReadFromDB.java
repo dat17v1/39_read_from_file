@@ -18,10 +18,10 @@ public class ExerciseReadFromDB
         try{
             Scanner scan = new Scanner(new File("person.txt"));
 
-            while(scan.hasNextLine())
-            {
-                System.out.println(scan.nextLine());
-            }
+            // while(scan.hasNextLine())
+            // {
+            //     // System.out.println(scan.nextLine());
+            // }
 
         } catch (FileNotFoundException e)
         {
@@ -37,8 +37,12 @@ public class ExerciseReadFromDB
  
             while(scan.hasNextLine())
             {
-                persons.add(new Person(scan.next(), scan.next(), scan.next(), scan.next()));
-                
+                persons.add(new Person(scan.next(), scan.next(), scan.nextInt(), scan.next()));   
+            }
+
+            for(int i = 0; i < persons.size(); i++)
+            {
+                System.out.println(persons.get(i).getName());
             }
 
         }
