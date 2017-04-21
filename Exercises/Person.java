@@ -2,10 +2,10 @@ public class Person
 {
     private String name; 
     private String lastName;
-    private int age;
+    private String age;
     private String cpr;
 
-    public Person(String name, String lastName, int age, String cpr)
+    public Person(String name, String lastName, String age, String cpr)
     {
         this.name = name;
         this.lastName = lastName;
@@ -20,7 +20,7 @@ public class Person
     public String getLastName(){
         return lastName;
     }
-    public int getAge(){
+    public String getAge(){
         return age;
     }
     public String getCpr(){
